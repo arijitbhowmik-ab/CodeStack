@@ -35,6 +35,7 @@ const Footer = () => {
                   </li>
                   <li className='flex items-center'><FaTelegramPlane className='mx-2 text-2xl hover:text-blue-400 cursor-pointer'/>Telegram learn coding</li>
                   <li className='flex items-center'><FaGithub className='mx-2 text-2xl hover:text-orange-700 cursor-pointer'/>Github learn coding</li>
+                  
                 </ul>
               </div>
 
@@ -47,6 +48,7 @@ const Footer = () => {
                   </li>
                   <li>Privacy policy</li>
                   <li>Refund and cancellation</li>
+                  <Link to={"/admin/login"} className=''>Admin Login</Link>
                 </ul>
               </div>
             </div>
