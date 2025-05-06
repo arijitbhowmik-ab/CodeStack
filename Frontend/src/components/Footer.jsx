@@ -5,6 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <>
