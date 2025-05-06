@@ -70,7 +70,7 @@ const Home = () => {
         {/* main section */}
 
         <section className='text-center py-20 px-20'>
-          <h1 className='md:text-6xl text-3xl font-semibold text text-yellow-500 text-center'>Welcome to LearnWithArijit</h1>
+          <h1 className='md:text-6xl text-3xl font-semibold text text-yellow-500 text-center'>Welcome to CodeStack</h1>
           <br /><br />
           <p className='text-2xl'>Learn here</p>
           <ReactTyped

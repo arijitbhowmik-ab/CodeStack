@@ -14,7 +14,7 @@ const Footer = () => {
               <div className='flex flex-col items-center'>
               <div className='flex items-center space-x-2'>
                 <img src={logo} alt="" className='rounded-full w-12 h-12'/>
-                <h1 className='text-2xl font-bold text-yellow-500'>LearnWithArijit</h1>
+                <h1 className='text-2xl font-bold text-yellow-500'>CodeStack</h1>
               </div>
                 <div className='mt-3 ml-2 md:ml-8'>
                   <p>Follow us</p>
