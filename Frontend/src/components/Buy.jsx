@@ -119,7 +119,7 @@ const Buy = () => {
     console.log("Payment info ID : ",  paymentID)
 
     //sent payment info to database
-    await axios.post('http://localhost:8080/api/v1/order', paymentInfo,{
+    await axios.post(`${BACKEND_URL}/order`, paymentInfo,{
       headers: {
         Authorization : `Bearer ${token}`
       },
